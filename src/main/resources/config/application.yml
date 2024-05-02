@@ -153,7 +153,9 @@ spring:
   output:
     ansi:
       console-available: true
-
+  ai:
+    ollama:
+      base-url: 'http://localhost:11434'
 server:
   servlet:
     session:
@@ -211,3 +213,4 @@ jhipster:
 # ===================================================================
 
 # application:
+
